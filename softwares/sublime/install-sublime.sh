@@ -1,8 +1,16 @@
 #!/bin/sh
 
+echo "sublime 开始安装"
 
+wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3059_amd64.deb
 
-echo "sublime 安装插件"
+sudo dpkg -i sublime-text_build-3059_amd64.deb
+
+rm -rf sublime-text_build-3059_amd64.deb
+
+echo "sublime 安装完毕"
+
+echo "sublime插件 开始安装"
 
 cd ~/.config/sublime-text-3/Packages
 
@@ -30,4 +38,4 @@ echo === Prefixr ===
 rm -rf "Prefixr"
 git clone https://github.com/JustQyx/Sublime-Text-Prefixr.git "Prefixr"
 
-echo "sublime 安装插件完毕"
+echo "sublime插件 安装完毕"
