@@ -38,4 +38,8 @@ echo === Prefixr ===
 rm -rf "Prefixr"
 git clone https://github.com/JustQyx/Sublime-Text-Prefixr.git "Prefixr"
 
+echo === Jade ===
+rm -rf "Jade"
+git clone https://github.com/davidrios/jade-tmbundle.git "Jade"
+
 echo "sublime插件 安装完毕"
